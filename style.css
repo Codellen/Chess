@@ -1,0 +1,53 @@
+body{
+    background-color: #262421;
+    
+}
+
+.square{
+    background-color: red;
+    width:70px;
+   height:70px;
+}
+.sub-container{
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+    width:560px;
+    height:560px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 5%;
+}
+.square1,.square3,.square5,.square7{
+    background-color: #EEEED2;
+}
+.square2,.square4,.square6,.square8{
+    background-color: #769656;
+}
+.square-1,.square-3,.square-5,.square-7{
+    background-color: #769656;
+}
+.square-2,.square-4,.square-6,.square-8{
+    background-color: #EEEED2;
+}
+img{
+    width:100%;
+}
+.highlightSquare{
+    width:30%;
+    height:30%; 
+    border-radius:50%;
+    background-color: rgba(0,0,0,.105);
+    
+}
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
